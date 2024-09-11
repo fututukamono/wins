@@ -5,6 +5,7 @@ import { resolve } from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/wins-music-landing/', // GitHub Pages用のベースパスを追加
   server: {
     host: "::",
     port: "8080",
